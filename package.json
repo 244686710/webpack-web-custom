@@ -1,0 +1,23 @@
+{
+  "name": "webpack-web-custom",
+  "version": "1.0.0",
+  "description": "webpack custom web",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/244686710/webpack-web-custom.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/244686710/webpack-web-custom/issues"
+  },
+  "homepage": "https://github.com/244686710/webpack-web-custom#readme",
+  "devDependencies": {
+    "webpack": "^4.27.1",
+    "webpack-cli": "^3.1.2"
+  }
+}
