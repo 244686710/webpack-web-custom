@@ -6,7 +6,7 @@ const config = merge(baseConfig, {
   module: {
     rules: [
       {
-        test: /\.less$/,
+        test: /\.scss$/,
         use: ExtractTextPlugin.extract({
           fallback: 'style-loader',
           use: [
@@ -16,7 +16,7 @@ const config = merge(baseConfig, {
                 minimize: true
               }
             },
-            'less-loader',
+            'sass-loader',
           ],
         }),
       },

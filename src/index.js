@@ -1,11 +1,15 @@
-import './index.less';
-import './test.less'
-// import Img from './dev.png'
-console.log('Hello world');
-console.log('hahsd')
-// let IMG = document.createElement('img')
-// IMG.src = Img;
-// document.getElementsByTagName('body')[0].appendChild(IMG);
-// console.log(Img)
-// console.log("Running App version " + VERSION);  // 测试webpack.DefinePlugin
-// console.log("Running App version " + VERSION);  // 测试webpack.DefinePlugin
+require('./index.scss')
+
+// 获取屏幕宽度（viewport)
+let htmlWidth = document.documentElement.clientWidth || document.body.clientWidth;
+
+// 获取html的dom
+let htmlDom = document.getElementsByTagName('html')[0]
+
+htmlDom.style.fontSize = htmlWidth / 10 + 'px'
+
+window.addEventListener('resize', () => {
+  let htmlWidth = document.documentElement.clientWidth || document.body.clientWidth;
+  // 设置html的fontSize
+  htmlDom.style.fontSize = htmlWidth / 10 + 'px'
+})
