@@ -21,7 +21,7 @@ const config = merge(baseConfig, {
           'vue-style-loader',
           'css-loader',
           'sass-loader',
-          'postcss-loader',//css自动加上兼容性前缀
+          // 'postcss-loader',//css自动加上兼容性前缀
         ]
       },
     //   {

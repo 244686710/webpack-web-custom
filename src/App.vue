@@ -9,6 +9,10 @@
       <li class="header-item">图片</li>
       <li class="header-item">财经</li>
     </ul>
+
+    <div class="postcss-test">
+      hello world
+    </div>
   </div>
 </template>
 
@@ -20,4 +24,7 @@ export default {
 
 <style lang="scss">
   @import './index.scss';
+  .postcss-test {
+    display: flex;
+  }
 </style>
