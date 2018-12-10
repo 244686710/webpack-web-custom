@@ -61,7 +61,7 @@ module.exports = (env, argv) => ({
       path.resolve(__dirname, 'src')
     ],
 
-    extensions: [".wasm", ".mjs", ".js", ".json", ".jsx"],
+    extensions: [".vue", ".mjs", ".js", ".json", ".jsx"],
   },
 
   plugins: [
