@@ -8,6 +8,7 @@ Vue.config.productionTip = false
 // FastClick.attach(document.body) // vue移动端使用click
 // Vue.use(VueAwesomeSwiper)
 /* eslint-disable no-new */
+
 new Vue({
   el: '#app',
   // router,

@@ -2,7 +2,6 @@ const webpack = require('webpack')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const merge = require('webpack-merge')
 const baseConfig = require('./webpack.base.conf')
-const MiniCssExtractPlugin = require("mini-css-extract-plugin")//抽离css的插件 npm install mini-css-extract-plugin -D 来安装
 const VueLoaderPlugin = require('vue-loader/lib/plugin')
 
 const config = merge(baseConfig, {

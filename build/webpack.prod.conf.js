@@ -1,5 +1,6 @@
 const merge = require('webpack-merge')
 const ExtractTextPlugin = require('extract-text-webpack-plugin')
+const MiniCssExtractPlugin = require("mini-css-extract-plugin") //抽离css的插件 npm install mini-css-extract-plugin -D 来安装
 const baseConfig = require('./webpack.base.conf')
 
 const config = merge(baseConfig, {
