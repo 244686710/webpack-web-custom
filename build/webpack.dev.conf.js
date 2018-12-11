@@ -16,11 +16,18 @@ const config = merge(baseConfig, {
       {
         test: /\.scss$/,
         use: [
-          'style-loader',
-          'vue-style-loader',
-          'css-loader',
-          'sass-loader',
-          // 'postcss-loader',//css自动加上兼容性前缀
+          {
+            loader: 'style-loader',
+          }, {
+
+            loader: 'vue-style-loader',
+          }, {
+            loader:  'css-loader',
+          }, {
+            loader: 'sass-loader',
+          }, {
+            loader: 'postcss-loader',//css自动加上兼容性前缀
+          }
         ]
       },
     //   {
